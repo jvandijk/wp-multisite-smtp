@@ -66,7 +66,6 @@ class Multisite_SMTP {
         //Assume any undefined settings
         $assume = array(
             'GLOBAL_SMTP_PORT'=> 465,
-            'GLOBAL_SMTP_SECURE' => 'ssl',
             'GLOBAL_SMTP_TIMEOUT' => 10,
             'GLOBAL_SMTP_FROM' => get_site_option('admin_email','',true),
             'GLOBAL_SMTP_FROM_NAME' => get_site_option('site_name','WordPress',true),
